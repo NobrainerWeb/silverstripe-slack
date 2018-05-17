@@ -29,11 +29,6 @@
             "client/dist"
         ]
     },
-    "autoload": {
-        "psr-4": {
-            "NobrainerWeb\\Slack\\": "src/"
-        }
-    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
