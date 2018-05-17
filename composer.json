@@ -26,11 +26,6 @@
             "1.0": "1.0.x-dev"
         }
     },
-    "autoload": {
-        "psr-4": {
-            "NobrainerWeb\\Slack\\": "src/"
-        }
-    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
