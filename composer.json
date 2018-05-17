@@ -19,15 +19,12 @@
         }
     ],
     "require": {
-        "php": ">=7.0.0"
+        "maknz/slack": "1.7.0"
     },
     "extra": {
         "branch-alias": {
             "1.0": "1.0.x-dev"
         }
-        "expose": [
-            "client/dist"
-        ]
     },
     "autoload": {
         "psr-4": {
