@@ -1,7 +1,7 @@
 {
     "name": "nobrainerweb/silverstripe-slack",
     "description": "Wrapper module for using Slack services, SilverStripe 4",
-    "type": "silverstripe-vendormodule",
+    "type": "silverstripe-module",
     "keywords": [
         "silverstripe",
         "CMS",
