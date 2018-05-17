@@ -1,0 +1,14 @@
+---
+Name: slack-settings
+---
+NobrainerWeb\Slack\SlackClient:
+  channels:
+    errors:
+      username: "Error bot"
+      webhook: ""
+    warnings:
+      username: "Warning bot"
+      webhook: ""
+    notices:
+      username: "Notice bot"
+      webhook: ""
