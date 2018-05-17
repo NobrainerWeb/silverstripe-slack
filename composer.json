@@ -1,0 +1,36 @@
+{
+    "name": "nobrainerweb/silverstripe-slack",
+    "description": "Wrapper module for using Slack services, SilverStripe 4",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "CMS",
+        "slack"
+    ],
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Nobrainer Web",
+            "email": "mail@nobrainer.dk"
+        },
+        {
+            "name": "Sander Hagenaars",
+            "email": "sander.ha@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+    },
+    "extra": {
+        "expose": [
+            "client/dist"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "NobrainerWeb\\Slack\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
